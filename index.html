@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Picom</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div class="preview">
+		<div class="preview__block">
+			<img src="img/picom_preview.svg" alt="Preview" class="preview__img">
+			<p class="preview__text">test</p>
+		</div>
+	</div>
+	<div class="container">
+		<header class="header">
+			<img src="img/logo_picom.svg" alt="Picom" class="header__logo">
+			<h1 class="visually-hidden">Picom</h1>
+		</header>
+		<main class="main">
+			<section class="signup hidden">
+				<h2 class="signup__title subtitle">Создать учетную запись</h2>
+				<p class="signup__text">
+					Уже есть учетная запись?
+					<a href="#" class="signup__link link auth">Войти</a>
+				</p>
+				<form action="#" class="signup__form form">
+					<div class="signup__block block">
+						<input type="text" required class="signup__input input">
+						<span class="signup__border input__border"></span>
+						<label class="signup__label input__label">Имя*</label>
+					</div><div class="signup__block block">
+						<input type="text" required class="signup__input input">
+						<span class="signup__border input__border"></span>
+						<label class="signup__label input__label">E-mail*</label>
+					</div><div class="signup__block block">
+						<input type="text" required class="signup__input input">
+						<span class="signup__border input__border"></span>
+						<label class="signup__label input__label">Пароль*</label>
+					</div>
+					<div class="signup__terms">
+						<input type="checkbox" id="terms" class="signup__checkbox checkbox">
+						<label for="terms">
+							<span class="signup__consent">
+								Я даю согласие на обработку персональных данных, указанных в условиях
+								<a href="#" class="signup__link link">Пользовательского соглашения</a>
+							</span>
+						</label>
+					</div>
+					<button type="submit" class="signup__btn button">Создать учетную запись</button>
+				</form>
+			</section>
+			<section class="login">
+				<h2 class="login__title subtitle">Войти в учетную запись</h2>
+				<p class="login__text">
+					Нет учетной записи?
+					<a href="#" class="login__link link create-acc">Создать учетную запись</a>
+				</p>
+				<form action="#" class="login__form form">
+					<div class="login__block block">
+						<input type="text" required class="login__input input">
+						<span class="login__border input__border"></span>
+						<label class="login__label input__label">E-mail*</label>
+					</div>
+					<div class="login__block block">
+						<input type="text" required class="login__input input">
+						<span class="login__border input__border"></span>
+						<label class="login__label input__label">Пароль*</label>
+					</div>
+					<div class="login__terms">
+						<a href="#" class="login__link link">Забыли пароль?</a>
+						<button type="submit" class="login__btn button">Войти</button>
+					</div>
+				</form>
+				<p class="login__options">или с помощью</p>
+				<div class="login__socials">
+					<a href="#" class="login__socials--link vk">
+						<img src="img/vk.svg" alt="" class="login__img">
+						Войти через ВКонтакте
+					</a>
+					<a href="#" class="login__socials--link  fb">
+						<img src="img/fb.svg" alt="" class="login__img">
+						Войти через Facebook
+					</a>
+				</div>
+			</section>
+		</main>
+	</div>
+</body>
+
+</html>

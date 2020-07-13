@@ -1,0 +1,72 @@
+.login {
+	width: 516px;
+	padding: 77px 47px 56.5px 47px;
+	background-color: $form-bg;
+
+	&__text a{
+		margin-left: 5px;
+	}
+
+	&__terms {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 40px;
+		margin-top: 9px;
+		border-bottom: 1px solid $border-color;
+	}
+
+	&__btn {
+		width: 198px;
+	}
+
+	&__options {
+		margin-top: 30px;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	&__socials {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-top: 32px;
+		font-size: 14px;
+		font-weight: 500;
+		text-align: center;
+		letter-spacing: 0.02em;
+
+		&--link {
+			display: inline-block;
+			border-radius: 2px;
+			text-decoration: none;
+			line-height: 48px;
+			color: #fff;
+		}
+	}
+
+	&__img {
+		margin-bottom: -4px;
+		margin-right: 5px;
+	}
+}
+
+.vk {
+	background-color: $vk-color;
+	margin-bottom: 16px;
+
+	&:hover,
+	&:active {
+		background: linear-gradient(0deg, rgba(40, 40, 40, 0.1), rgba(40, 40, 40, 0.1)), $vk-color;
+	}
+}
+
+.fb {
+	background-color: $fb-color;
+
+	&:hover,
+	&:active {
+		background: linear-gradient(0deg, rgba(40, 40, 40, 0.1), rgba(40, 40, 40, 0.1)), $fb-color;
+	}
+
+}
