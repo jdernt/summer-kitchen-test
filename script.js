@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', function(){
         } else {
           	clearInterval(fadeEffect);
         }
-    }, 50);
+    }, 80);
 	}
 
-	setTimeout(fadeOutEffect, 1500);
+	setTimeout(fadeOutEffect, 1250);
 
 
 });
